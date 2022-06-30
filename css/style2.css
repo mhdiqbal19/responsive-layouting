@@ -1,0 +1,55 @@
+.margin-container{
+    margin-top: 50px;
+}
+.card-container h2{
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+.card-container p{
+    padding: 6px;
+    text-align: center;
+}
+.left-column-content{
+    padding-top: 80px;
+}
+.row{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+footer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+
+@media (max-width: 600px){
+    .carousel-padding{
+        margin-top: 55px;
+    }
+    .btn-primary{
+        display: none;
+    }
+    .carousel-caption, h1{
+        font-size: 9;
+        line-height: 1;
+    }
+    .left-column-content{
+        padding-top: 2px;
+        text-align: center;
+    }
+    .row{
+        margin-top: 50px;
+        margin-bottom: 5px;
+    }
+    .card-container h2{
+        font-size: small;
+    }
+    .card-container p{
+        font-size: small;
+    }
+    .carousel h1{
+        margin-top: 100px;
+    }
+}

@@ -1,0 +1,30 @@
+body {
+    background: cornflowerblue;
+}
+.row{
+    display: flex;
+    width: 1000px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.col-md-4{
+    flex: 3.33%;
+}
+.col-md-6{
+    flex: 50%;
+}
+.col-md-12{
+    flex: 100%;
+}
+
+@media (max-width: 700px){
+    .col-sm-4{
+        flex: 3.33%;
+    }
+    .col-sm-6{
+        flex: 50%;
+    }
+    .col-sm-12{
+        flex: 100%;
+    }
+}
